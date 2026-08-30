@@ -27,6 +27,7 @@ More constraints can improve reliability but may also make outputs more generic 
 ## How do constraints improve reliability?
 Explicit grounding and anti-hallucination rules reduce the model's freedom to fill missing information with plausible but unsupported details.
 
-I built an independent prompt optimization project using a resume-content use case. I created a baseline prompt and progressively added factual grounding, prompt constraints, ambiguity handling, and verification rules. I tested the same synthetic inputs across prompt versions, including metric and ambiguity traps, scored outputs against predefined criteria, and documented how prompt changes affected factual reliability and output quality.
+## Interview Explanation
+> I built an independent prompt optimization project using a resume-content use case. I created a baseline prompt and progressively added factual grounding, prompt constraints, ambiguity handling, and verification rules. I tested the same synthetic inputs across prompt versions, including metric and ambiguity traps, scored outputs against predefined criteria, and documented how prompt changes affected factual reliability and output quality.
 
 Only claim the tools, test counts, outputs, scores, and findings that were actually completed.
